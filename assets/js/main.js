@@ -53,14 +53,14 @@
 
 		}
 
-      if (localStorage.getItem('cookieSeen') !='shown') {
-        $('.cookie-banner').delay(2000).fadeIn();
-        localStorage.setItem('cookieSeen','shown')
-      };
+      if(localStorage.getItem('cookieSeen') != 'shown'){
+    $(".cookie-banner").delay(2000).fadeIn();
+    localStorage.setItem('cookieSeen','shown')
+}
 
-      $('.close').click(function() {
-        $('.cookie-banner').fadeOut();
-      })
+$('.close').click(function(e) {
+  $('.cookie-banner').fadeOut(); 
+});
 	// Nav.
 		var $nav = $header.children('nav'),
 			$nav_li = $nav.find('li');
