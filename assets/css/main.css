@@ -617,7 +617,7 @@ input, select, textarea {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      background-color: #2d2d2d73;
+      background-color: rgba(27, 31, 34, 0.85);
       border-radius: 5px;
       box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
     }
