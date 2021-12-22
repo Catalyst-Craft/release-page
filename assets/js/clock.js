@@ -1,5 +1,5 @@
 window.addEventListener("load", function () {
-        var theRealease = new Date("december 23, 2021 05:30:00").getTime();
+        var theRealease = new Date("december 23, 2021 17:30:00").getTime();
 
         var interval = setInterval(function () {
                 var d = theRealease - new Date().getTime();
