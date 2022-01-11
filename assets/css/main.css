@@ -268,6 +268,24 @@ input, select, textarea {
 		padding: 0.25rem 0.65rem;
 	}
 
+  code.green {
+    color: rgb(0, 158, 0);
+    border-color: green;
+    background-color: rgb(0, 61, 0);
+  }
+
+  span.green {
+    color: rgb(0, 158, 0);
+    border-color: green;
+    background-color: rgb(0, 61, 0);
+  }
+
+  span.red {
+    color: rgb(177, 7, 7);
+    border-color: red;
+    background-color: rgb(255, 55, 55);
+  }
+
 	pre {
 		-webkit-overflow-scrolling: touch;
 		font-family: "Courier New", monospace;
