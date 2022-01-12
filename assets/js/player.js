@@ -40,7 +40,7 @@
                     t.onreadystatechange = function() {
                         if (4 === t.readyState && 200 === t.status) {
                             var n = JSON.parse(t.responseText);
-                            if (null !== e.element.getAttribute("data-playercounter-status")) return void(e.element.innerHTML = n.online ? "<span class ="green">Online</span>" : "<span class ="red">Offline</span>");
+                            if (null !== e.element.getAttribute("data-playercounter-status")) return void(element.innerHTML = n.online ? "<span class ="green">Online</span>" : "<span class ="red">Offline</span>");
                             n.online && (e.element.innerHTML = e.format.replace(/{\b(online|max)\b}/gi, function(e, t) {
                                 return n.players["online" === t ? "now" : t]
                             }))
