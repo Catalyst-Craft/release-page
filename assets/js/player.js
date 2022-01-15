@@ -8,6 +8,6 @@
 
 document.getElementById("online").style.color = "green";
 
-$('span').filter(function (i, element) {
+$('a').filter(function (i, element) {
     return element.text == "online";
 }).css('color','green');
